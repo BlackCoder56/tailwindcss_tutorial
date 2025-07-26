@@ -35,6 +35,11 @@
       <div class="max-md:block hidden">
         <p class="text-cyan-500">I appear on smaller screens</p>
       </div>
+
+      <!-- Hover & buttons -->
+       <button class="my-2 mx-4 rounded-lg bg-blue-500 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 active:bg-blue-800">
+        Click Me
+       </button>
 </template>
 
 <style scoped>
