@@ -27,6 +27,14 @@
       <div class="bg-violet-500 h-12"></div>
       <div class="bg-violet-500 h-12"></div>
      </div>
+
+     <!-- Media Queries -->
+      <div class="md:block hidden">
+        <p class="text-amber-500">I appear on Larger screens</p>
+      </div>
+      <div class="max-md:block hidden">
+        <p class="text-cyan-500">I appear on smaller screens</p>
+      </div>
 </template>
 
 <style scoped>
