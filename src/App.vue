@@ -40,6 +40,29 @@
        <button class="my-2 mx-4 rounded-lg bg-blue-500 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 active:bg-blue-800">
         Click Me
        </button>
+
+       <!-- using; first, & even -->
+        <ul class="my-2 space-y-2">
+          <li class="bg-white p-2 first:bg-yellow-100">Item 1</li>
+          <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 2</li>
+          <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 3</li>
+          <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 4</li>
+          <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 5</li>
+        </ul>
+
+        <!-- Theme dark with `dark` -->
+         <div class="m-10 rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:bg-black">
+          <h3 class="text-base font-medium tracking-tight text-slate-900 dark:text-white">
+            This is a text element
+          </h3>
+          <p class="mt-2 text-sm text-slate-500 dark:text-blue-100">
+            This is an even longer p tag element.
+          </p>
+
+          <button class="text-blue-900 px-4 py-2 text-sm font-medium mt-8 bg-blue-100 rounded-md">
+            Submit
+          </button>
+         </div>
 </template>
 
 <style scoped>
