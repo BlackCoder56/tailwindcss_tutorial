@@ -63,6 +63,9 @@
             Submit
           </button>
          </div>
+
+         <!-- Custom Styling -->
+          <p class="text-[12px] text-[#973F29] bg-stone-100 p-[16px]">Chestnut color</p>
 </template>
 
 <style scoped>
